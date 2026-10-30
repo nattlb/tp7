@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 94px;
+  padding: 0 55px;
+  background-color: #faf8f4;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #a58db3;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #374151;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  color: #a58db3;
+}
+
+.nav a.boton-contacto {
+  background-color: #b9a3c4;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+}
+
+.nav a.boton-contacto:hover {
+  background-color: #a58db3;
+  color: white;
+}
